@@ -9,8 +9,6 @@ class Car(com:String, year:Long, price:Int, owner:String, miles:Int,cprice:Int){
         println("Object is created and Init is called")
     }
 
-
-
     fun getCarPrice(){
         println("$" + (p-m).toString())
     }
